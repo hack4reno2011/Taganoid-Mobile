@@ -1,0 +1,82 @@
+/* line 1, ../../../app/stylesheets/mobile.sass */
+.boldit {
+  font-weight: bold;
+}
+
+/* line 6, ../../../app/stylesheets/mobile.sass */
+.client .client_row_1 .name {
+  font-weight: bold;
+}
+/* line 8, ../../../app/stylesheets/mobile.sass */
+.client .client_row_1 .watch {
+  color: #990000;
+}
+/* line 12, ../../../app/stylesheets/mobile.sass */
+.client .client_row_2 .balance {
+  font-style: italic;
+}
+
+/* line 17, ../../../app/stylesheets/mobile.sass */
+.client_info {
+  padding: 0.5em 0.8em;
+}
+
+/* line 33, ../../../app/stylesheets/mobile.sass */
+.charge .client_row_1 {
+  font-weight: bold;
+}
+/* line 36, ../../../app/stylesheets/mobile.sass */
+.charge .client_row_1 .quantity_time {
+  float: left;
+  width: 33%;
+}
+/* line 39, ../../../app/stylesheets/mobile.sass */
+.charge .client_row_1 .rate {
+  float: left;
+  width: 33%;
+  font-weight: bold;
+}
+/* line 43, ../../../app/stylesheets/mobile.sass */
+.charge .client_row_1 .total {
+  float: left;
+  width: 33%;
+  font-weight: bold;
+}
+/* line 49, ../../../app/stylesheets/mobile.sass */
+.charge .client_row_2 .charged_at {
+  float: left;
+  width: 100%;
+}
+/* line 54, ../../../app/stylesheets/mobile.sass */
+.charge .client_row_3 .charge_type {
+  float: left;
+  width: 100%;
+}
+/* line 59, ../../../app/stylesheets/mobile.sass */
+.charge .client_row_4 .notes {
+  float: left;
+  width: 100%;
+}
+
+/* line 68, ../../../app/stylesheets/mobile.sass */
+.credit .client_row_1 .amount {
+  float: left;
+  width: 50%;
+  margin-right: 20px;
+  font-weight: bold;
+}
+/* line 74, ../../../app/stylesheets/mobile.sass */
+.credit .client_row_1 .type {
+  color: #990000;
+}
+/* line 79, ../../../app/stylesheets/mobile.sass */
+.credit .client_row_2 .entered_on {
+  float: left;
+  width: 50%;
+  margin-right: 20px;
+  font-style: italic;
+}
+/* line 84, ../../../app/stylesheets/mobile.sass */
+.credit .client_row_2 .account_ref {
+  font-style: italic;
+}

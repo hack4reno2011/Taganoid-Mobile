@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.gbdev.taganoid" version = "1.0.0">
+
+  <name>Taganoid</name>
+
+  <description>
+    A cool app!!
+  </description>
+
+  <author href="https://github.com/hack4reno/Taganoid-Mobile" email="weshays@gbdev.com">
+    Wes Hays
+  </author>
+
+  <gap:platforms>
+    <gap:platform name="ios" />
+  </gap:platforms>
+
+  <icon src="icon.png" gap:role="default" />
+
+  <preference name="autorotate" value="false" readonly="true"/>
+</widget>
