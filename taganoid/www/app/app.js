@@ -18,7 +18,7 @@ var form = new Ext.form.FormPanel({
     id: 'register',
 	defaults: {
       labelAlign: 'left',
-	  labelWidth: '40%'
+	  labelWidth: '50%'
 	},
     items: [
         {
@@ -29,13 +29,18 @@ var form = new Ext.form.FormPanel({
         {
             xtype: 'textfield',
             name : 'entry[creator_number]',
-            label: 'Your Contact Number'
+            label: 'Contact Number'
         },
         {
             xtype: 'textfield',
-            name : 'entry[notes]',
-            label: 'Description'
-        },
+            name : 'entry[title]',
+            label: 'Title'
+	    },
+	    {
+          xtype: 'textfield',
+          name : 'entry[descr]',
+          label: 'Description'
+		},
         {
             xtype: 'hiddenfield',
             name : 'entry[entry_type_id]',
