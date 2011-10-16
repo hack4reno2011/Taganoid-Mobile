@@ -2,7 +2,7 @@
 
 
 function tag_taganoid_picture() {
-  navigator.camera.getPicture(onSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.FILE_URI }); 
+  navigator.camera.getPicture(onSuccess, onFail, { quality: 50 }); 
 }
 
 function onSuccess(imageData) {
@@ -77,8 +77,7 @@ var form = new Ext.form.FormPanel({
 		  scope: this,
 		  margin: '20 0 20 0',
 		  handler: function (b, e) { 
-			var image_fld = Ext.getCmp('image_base64');
-			image_fld.setValue(imageData);
+			tag_taganoid_picture();
 		  }
         },
 		{
